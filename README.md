@@ -22,8 +22,8 @@ The model weights can be loaded using `transformers` library by Hugging Face.
 ```python
 from transformers import AutoTokenizer, AutoModelWithLMHead
 
-tokenizer = AutoTokenizer.from_pretrained("skimai/spanberta-base-cased")
-model = AutoModelWithLMHead.from_pretrained("skimai/spanberta-base-cased")
+tokenizer = AutoTokenizer.from_pretrained("chriskhanhtran/spanberta")
+model = AutoModelWithLMHead.from_pretrained("chriskhanhtran/spanberta")
 ```
 
 Example using `pipeline`:
